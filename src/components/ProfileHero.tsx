@@ -22,25 +22,28 @@ export default function ProfileHero() {
           />
           
           <div className="pb-4 flex-1">
-            <h1 className="text-3xl font-bold text-white">Sarah Adventure</h1>
-            <p className="text-gray-200 flex items-center mt-1">
-              <MapPin className="h-4 w-4 mr-1" />
-              Based in New York, USA
-            </p>
-            
-            <div className="flex space-x-4 mt-4">
-              <span className="flex items-center text-gray-200">
-                <Calendar className="h-4 w-4 mr-1" />
-                Traveling since 2018
-              </span>
-              <span className="flex items-center text-gray-200">
-                <Award className="h-4 w-4 mr-1" />
-                45 Countries
-              </span>
-              <span className="flex items-center text-gray-200">
-                <Users className="h-4 w-4 mr-1" />
-                2.5k Followers
-              </span>
+            <div className="flex items-center justify-between">
+              <div>
+                <h1 className="text-3xl font-bold text-white">Sarah Adventure</h1>
+                <p className="text-gray-200 flex items-center mt-1">
+                  <MapPin className="h-4 w-4 mr-1" />
+                  Based in New York, USA
+                </p>
+              </div>
+              <div className="flex space-x-6">
+                <div className="text-center">
+                  <p className="text-xl font-bold text-white">2018</p>
+                  <p className="text-sm text-gray-300">Traveling since</p>
+                </div>
+                <div className="text-center">
+                  <p className="text-xl font-bold text-white">45</p>
+                  <p className="text-sm text-gray-300">Countries</p>
+                </div>
+                <div className="text-center">
+                  <p className="text-xl font-bold text-white">2.5k</p>
+                  <p className="text-sm text-gray-300">Followers</p>
+                </div>
+              </div>
             </div>
           </div>
           
